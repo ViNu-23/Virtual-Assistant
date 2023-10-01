@@ -14,11 +14,7 @@ def index():
 def execute():
     if request.method == 'POST':
         user_input = request.form['user_input']
-        # Add logic to execute user commands based on user_input
-        # You can call the functions from your existing script here
 
-        # Replace the following lines with your script's logic
-        response_text = f"Executing: {user_input}"
         return render_template('index.html', response_text=response_text)
 
 if __name__ == '__main__':
