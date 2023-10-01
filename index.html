@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Virtual Assistant</title>
+</head>
+<body>
+    <h1>Welcome to Your Virtual Assistant</h1>
+    <p>{{ response_text }}</p>
+    <form method="POST" action="/execute">
+        <input type="text" name="user_input" placeholder="Enter your command...">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
